@@ -24,12 +24,25 @@ const Experience = () => {
                 text="dark"
               >
                 <Card.Header>
-                  <h2>{job.title}</h2>
-                  <h3 className="company-name">{job.company}</h3>
-                  <FaCalendar className="map-marker" />
-                  <p className="icon-text">{job.date}</p>
-                  <FaMapMarkerAlt className="map-marker" />
-                  <p className="icon-text">{job.location}</p>
+                  <Row>
+                    <Col lg="8">
+                      <h2>{job.title}</h2>
+                      <h3 className="company-name">{job.company}</h3>
+                      <FaCalendar className="map-marker" />
+                      <p className="icon-text">{job.date}</p>
+                      <FaMapMarkerAlt className="map-marker" />
+                      <p className="icon-text">{job.location}</p>
+                    </Col>
+                    <Col lg="4" className="company-logo-col">
+                      <a href={job.website} target="_blank" rel="noopener noreferrer">
+                        <img
+                          src={process.env.PUBLIC_URL + job.logoLight}
+                          className={job.css}
+                          alt={`${job.company} logo`}
+                        />
+                      </a>
+                    </Col>
+                  </Row>
                 </Card.Header>
 
                 <Card.Body>
