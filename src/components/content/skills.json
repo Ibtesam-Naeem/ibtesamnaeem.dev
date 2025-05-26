@@ -1,0 +1,42 @@
+{
+  "languages": [
+    "Python",
+    "Java",
+    "Rust",
+    "JavaScript",
+    "SQL",
+    "HTML",
+    "CSS"
+  ],
+  "frameworks_and_libraries": [
+    "React.js",
+    "Node.js",
+    "OpenCV",
+    "TensorFlow",
+    "scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Jupyter",
+    "Pytest",
+    "Google Test",
+    "Selenium",
+    "Playwright",
+    "PostgreSQL",
+    "MongoDB"
+  ],
+  "cloud_and_devops": [
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "GitHub",
+    "AWS S3",
+    "AWS SQS",
+    "AWS SNS",
+    "Apache Kafka",
+    "AWS RDS",
+    "AWS Aurora",
+    "LaTeX",
+    "Salesforce"
+  ]
+}

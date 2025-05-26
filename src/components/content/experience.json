@@ -1,0 +1,53 @@
+{
+  "jobs": [
+    {
+      "title": "Data Automation Intern",
+      "company": "ANCPA",
+      "css": "zoox",
+      "website": "https://asimcpa.com",
+      "logoLight": "/assets/img/ancpc.png",
+      "logoDark": "/assets/img/amazon-seller.png",
+      "date": "May 2024 – Sep 2024",
+      "location": "Mississauga, ON",
+      "skills": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Selenium",
+        "VBA",
+        "Pytest",
+        "Git"
+      ],
+      "bullets": [
+        "Maintained multi-tenant SQL demo environments and built reusable refresh scripts, reducing setup time by 40%.",
+        "Automated recurring financial data entry workflows using VBA/macros, improving accuracy and operational efficiency.",
+        "Documented technical issues and solutions to streamline knowledge transfer and reduce IT support requests.",
+        "Coordinated data-related tasks with internal teams using Agile methodology; participated in standups and sprint planning."
+      ]
+    },
+    {
+      "title": "Automation Developer",
+      "company": "Amazon Seller Central",
+      "css": "zoox",
+      "website": "https://sellercentral.amazon.com",
+      "logoLight": "/assets/img/amazon-seller.png",
+      "logoDark": "/assets/img/amazon-seller.png",
+      "date": "Jan 2023 – Sept 2023",
+      "location": "Remote",
+      "skills": [
+        "C++",
+        "Python",
+        "Selenium",
+        "Playwright",
+        "Pytest",
+        "Git"
+      ],
+      "bullets": [
+        "Led the development of cross-functional projects involving product listing automation, inventory management, and pricing optimization across cloud environments.",
+        "Developed Python-based data pipelines with APIs and Selenium, resulting in 25% operational efficiency gains.",
+        "Managed backlog and release cycles using Kanban workflows; prioritized automation issues with cross-functional teams.",
+        "Refactored data-pipeline error handling with retry/back-off logic; reduced scrape failure rate from 8% to less than 1%."
+      ]
+    }
+  ]
+}

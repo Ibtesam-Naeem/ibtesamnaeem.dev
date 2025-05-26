@@ -1,0 +1,88 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+#skills {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  h1 {
+    margin-left: 5%;
+  
+    hr {
+      margin-top: 3%;
+    }
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.skill-cards {
+  margin-top: 2rem;
+}
+
+.skill-card {
+  margin-bottom: 2rem;
+  transition: border $theme-toggle-time;
+  @include themed() {
+    border: 0.1rem solid t("secondary-color");
+  }
+
+  .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    padding-bottom: 0;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .card-body {
+    padding-top: 0.5rem;
+  }
+}
+
+.skill-badge {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  transition: background-color $theme-toggle-time;
+  @include themed() {
+    background-color: t("secondary-color") !important;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .skill-card {
+    margin-bottom: 1rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .skill-cards {
+    .middle-card {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: $max-width-font-reduce) {
+  #skills {
+    h2 {
+      font-size: 1rem;
+    }
+
+    .col-md-12 {
+      margin-bottom: 10px;
+    }
+
+    .middle-card {
+      margin-bottom: 10px;
+    }
+  }
+}

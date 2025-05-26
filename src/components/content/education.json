@@ -1,0 +1,20 @@
+{
+  "degree": "Bsc Computer Science",
+  "school": "Wilfrid Laurier University",
+  "link": "https://www.wlu.ca/academics/programs/computer-science",
+  "date": "Sep 2021 - Apr 2026",
+  "logo": "/assets/img/wlu.png",
+  "courses": [
+    { "name": "Data structures and algorithms", "link": "https://bohr.wlu.ca/cp164/" },
+    { "name": "Software engineering", "link": "https://bohr.wlu.ca/cp317/" },
+    { "name": "Windows applications programming (VBA)", "link": "https://bohr.wlu.ca/cp212/" },
+    { "name": "Machine learning", "link": "https://web.wlu.ca/science/physcomp/ikotsireas/f2024CP468ArtificialIntelligence.html" },
+    { "name": "Object oriented programming", "link": "https://bohr.wlu.ca/cp213/" },
+    { "name": "Accounting", "link": "https://uwflow.com/course/ece358" },
+    { "name": "Macroecon", "link": "https://uwflow.com/course/ece350" },
+    { "name": "Microecon", "link": "https://uwflow.com/course/ece457a" },
+    { "name": "Financial management", "link": "https://uwflow.com/course/ece459" },
+    { "name": "Business law", "link": "https://uwflow.com/course/ece454" },
+    { "name": "Database", "link": "https://uwflow.com/course/ece356" }
+  ]
+}

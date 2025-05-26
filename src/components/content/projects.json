@@ -1,0 +1,91 @@
+{
+  "projects": [
+    {
+      "title": "Earnings Reaction Predictor",
+      "description": "A machine learning classifier to predict post-earnings stock movement (up/down) using financial metrics and headline sentiment.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/EarningsReactionPredictor",
+      "skills": ["Python", "scikit-learn", "pandas", "FastAPI", "PostgreSQL", "OpenAI", "XGBoost"],
+      "bullets": [
+        "Built a classifier to predict post-earnings stock movement using financial metrics and news sentiment.",
+        "Engineered features from EPS surprise, revenue delta, and pre-market sentiment (OpenAI-generated labels).",
+        "Achieved 82% test accuracy with XGBoost and stratified cross-validation on 2,000+ labeled events.",
+        "Deployed as a FastAPI endpoint with PostgreSQL for earnings storage and daily prediction tracking.",
+        "Visualized predictions with matplotlib to compare model vs baseline heuristics."
+      ]
+    },
+    {
+      "title": "WealthsimpleWatcher",
+      "description": "A project that automates the process of summarizing your Wealthsimple portfolio's daily performance and sending it to you via SMS using Twilio.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/WealthsimpleWatcher",
+      "skills": ["Python", "Django", "Playwright", "FastAPI", "GCP", "Twilio", "Perplexity API", "OpenAI"],
+      "bullets": [
+        "Secure Django backend on GCP with Playwright automation.",
+        "Tracks portfolios, trades, and daily snapshots.",
+        "Sends real-time SMS/email alerts and weekly summaries.",
+        "Flags upcoming earnings and macro events for holdings.",
+        "Integrates news sentiment using Perplexity API and OpenAI."
+      ]
+    },
+    {
+      "title": "Fintech xBot",
+      "description": "FinancialSuite TwitterBot automates tweets about earnings reports, economic events, and market updates using Tweepy and the Twitter/X API. It fetches real-time and historical data from FinancialSuite-Backend, Polygon API, and SEC API, formats it into clean, informative tweets, and posts them automatically. The bot runs on AWS Lambda with scheduled triggers via EventBridge, continuously monitoring real-time earnings reports via the SEC API to deliver timely tweets as soon as earnings are released.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/Fintech-xBot",
+      "skills": ["Python", "AWS Lambda", "Tweepy", "Twitter API", "EventBridge"],
+      "bullets": [
+        "Automated tweets for earnings reports, economic events, and market updates.",
+        "Real-time monitoring of SEC API for earnings reports.",
+        "Scheduled tweets for pre-market and after-hours earnings reminders.",
+        "Weekly economic and earnings outlook posts.",
+        "Trading holidays notifications and Fear & Greed index updates."
+      ]
+    },
+    {
+      "title": "Stockpedia",
+      "description": "A web application that consolidates earnings events, economic events, market movers, and trading holidays using the FinancialSuite backend API.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/Stockpedia",
+      "skills": ["JavaScript", "React", "FastAPI", "PostgreSQL", "Web Scraping", "APIs"],
+      "bullets": [
+        "Displays consolidated financial data including earnings events, economic events, market movers, and trading holidays.",
+        "Integrates with the FinancialSuite backend API to fetch real-time data.",
+        "Provides a user-friendly interface to view important financial information."
+      ]
+    },
+    {
+      "title": "Market Dashboard Data Service",
+      "description": "A Python-based service that scrapes and serves financial market data, including earnings reports, economic events, market sentiment, and pre-market movers, via a FastAPI REST API.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/FinancialSuite-Backend",
+      "skills": ["Python", "FastAPI", "Playwright", "PostgreSQL", "Web Scraping", "APIs"],
+      "bullets": [
+        "Scrapes earnings calendars, economic events, and market sentiment.",
+        "Fetches pre-market gainers and losers from Polygon.io.",
+        "Serves data through REST API endpoints.",
+        "Uses Playwright for browser automation and scraping.",
+        "Stores data in PostgreSQL for analytics and reporting."
+      ]
+    },
+    {
+      "title": "TradingSimulator",
+      "description": "A simple Java-based backtesting engine that simulates trading strategies on historical stock data using a Simple Moving Average (SMA) Crossover Strategy.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/TradingSimulator",
+      "skills": ["Java", "Backtesting", "CSV", "Console App"],
+      "bullets": [
+        "Implements SMA crossover backtesting (e.g., 10-day vs 30-day).",
+        "Simulates buy/sell trades based on crossover signals.",
+        "Tracks capital, shares, and portfolio value over time.",
+        "Prints summary report with capital, trades, and final value.",
+        "Works with real or mock CSV stock data."
+      ]
+    },
+    {
+      "title": "Instagram-Post-Unsaver",
+      "description": "A Python-based automation tool to remove saved posts from your Instagram account. Uses Selenium to automate login, navigate to saved posts, and unsave posts in sequence. Features include automated login, batch unsaving, and customizable speed to avoid detection.",
+      "githubLink": "https://github.com/Ibtesam-Naeem/Instagram-Post-Unsaver",
+      "skills": ["Python", "Selenium", "Automation"],
+      "bullets": [
+        "Automated login and navigation to saved posts.",
+        "Batch unsaving of posts with customizable speed.",
+        "Filter posts by excluding specific hashtags."
+      ]
+    }
+  ]
+}

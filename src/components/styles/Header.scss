@@ -1,0 +1,51 @@
+@import "themes";
+@import "global";
+
+.header {
+  font-weight: 800;
+  padding: 0.5rem 1rem;
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  label {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sun {
+    color: yellow;
+    margin: 0px 3px;
+  }
+
+  .moon {
+    color: #ffffff;
+    margin: 0px 5px;
+  }
+
+  .nav-link {
+    margin: 0 0.5rem;
+  }
+
+  .resume-button {
+    transition: background $theme-toggle-time;
+    @include themed() {
+      background: t("secondary-color");
+    }
+    font-weight: 700;
+    border-radius: 1.25rem;
+    border-color: transparent;
+    margin-left: 0.5rem;
+  }
+  
+  .resume-button:hover {
+    opacity: .75;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      text-align: right;
+    }
+  }
+}
