@@ -5,7 +5,6 @@ import Col from "react-bootstrap/esm/Col";
 import Card from "react-bootstrap/esm/Card";
 import Badge from "react-bootstrap/Badge";
 import { FaGithub } from "react-icons/fa";
-import { FaGlobe } from "react-icons/fa";
 import projects from "./content/projects.json";
 import "./styles/Projects.scss";
 
